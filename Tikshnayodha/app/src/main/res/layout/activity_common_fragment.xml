@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+
+<com.example.abhishek.tikshnayodha.DragLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drag_layout"
+    app:bototmExtraIndicatorHeight="@dimen/card_extra_height"
+    app:bottomDragVisibleHeight="@dimen/card_bottom_info_height">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:alpha="0"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/white_back"
+        android:layout_gravity="center_vertical">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <TextView
+                android:id="@+id/address4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingRight="10dp"
+                android:text="Tap on Gallery Image to Know more about it."
+                android:textColor="#20fc0c"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/head1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <ImageView
+                    android:id="@+id/head2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="-10dp" />
+
+                <ImageView
+                    android:id="@+id/head3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="-10dp" />
+
+                <ImageView
+                    android:id="@+id/head4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="-10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.example.abhishek.tikshnayodha.AspectRatioCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:contextClickable="false"
+        android:transitionGroup="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:background="@drawable/background1" />
+
+    </com.example.abhishek.tikshnayodha.AspectRatioCardView>
+
+</com.example.abhishek.tikshnayodha.DragLayout>
+
+</FrameLayout>

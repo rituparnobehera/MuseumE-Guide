@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.abhishek.tikshnayodha.Setting"
+android:background="@drawable/paper_back"
+android:paddingLeft="120dp"
+android:paddingRight="120dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#0b06fa"
+        android:text="Enter Data Folder Path Example:   /storage/4389-0DFD/"
+        android:layout_above="@+id/video_path"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/video_path"
+    android:hint="Example  /storage/4389-0DFD/"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true"
+        android:textColor="#0b06fa"
+    android:textStyle="bold|italic"
+    android:textSize="20sp"
+    android:gravity="center" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SET PATH"
+    android:id="@+id/set"
+    android:layout_below="@+id/video_path"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="41dp"
+    android:background="#f77777" />
+
+</RelativeLayout>

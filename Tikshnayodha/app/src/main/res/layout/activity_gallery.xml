@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="@drawable/red_mu">
+
+
+<android.support.v4.view.ViewPager
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewpager"
+    android:layout_alignParentBottom="true"
+    android:clipToPadding="false"
+    android:paddingEnd="48dp"
+    android:paddingLeft="48dp"
+    android:paddingRight="48dp"
+    android:paddingStart="48dp">
+</android.support.v4.view.ViewPager>
+
+<TextView
+    android:id="@+id/indicator_tv"
+    android:layout_width="0dp"
+    android:layout_height="20dp"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_vertical"
+    android:text="1/50"
+    android:textColor="#ffffff"
+    android:textSize="16sp"
+    android:layout_alignParentBottom="true" />
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="NAME"
+            android:textColor="@color/design_textinput_error_color_light"
+            android:id="@+id/name"
+            android:textStyle="normal|bold"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="GALLERY"
+            android:id="@+id/gallery_titl"
+            android:layout_alignBottom="@+id/name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/design_textinput_error_color_light"
+            android:textStyle="normal|bold"
+            android:textSize="35dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

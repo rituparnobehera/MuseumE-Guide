@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+android:weightSum="2"
+tools:context="com.example.abhishek.tikshnayodha.DetailActivity"
+android:background="@drawable/red_mu">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="0.85"
+    android:weightSum="1.4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:text="NAME"
+        android:id="@+id/name"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/design_textinput_error_color_light"
+        android:textStyle="normal|bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:id="@+id/image"
+        android:src="@drawable/mot" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gallery Details Scroll"
+            android:textColor="#08f6b8"
+            android:textSize="18sp"
+            android:id="@+id/address4"
+            android:textStyle="bold|italic" />
+
+    </ScrollView>-->
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.15"
+    android:weightSum="2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7"
+        android:text="Related Artifacts"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/design_textinput_error_color_light"
+        android:textStyle="normal|bold"
+        android:maxLines="2"
+        android:lines="2"
+        android:id="@+id/related_exibts" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvCustomList"
+            android:scrollbars="none"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/back_image">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="About Us"
+        android:typeface="serif"
+        android:textSize="25dip"
+        android:id="@+id/organization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fa0633"
+        android:ellipsize="marquee"
+        android:textStyle="bold|italic"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="National Institute of Science and Technology"
+        android:textSize="20dip"
+        android:id="@+id/nist"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000fff"
+        android:ellipsize="marquee"
+        android:textStyle="normal|italic"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="Palur Hills, Berhampur, Odisha-761008"
+        android:textSize="20dip"
+        android:id="@+id/palurHills"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000fff"
+        android:ellipsize="marquee"
+        android:textStyle="normal|italic"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:text="Developers :"
+        android:typeface="serif"
+        android:textSize="25dip"
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fa0633"
+        android:ellipsize="marquee"
+        android:textStyle="bold|italic"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/abhishek_pic" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/alokik_pic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="Abhishek Kumar Soni"
+            android:textSize="20dip"
+            android:id="@+id/abhishek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:text="Alokik Pathak"
+            android:textSize="20dip"
+            android:id="@+id/alokik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="abhisheksoni0071@gmail.com"
+            android:textSize="20dip"
+            android:id="@+id/abhishek_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:text="thealokikpathak@gmail.com"
+            android:textSize="20dip"
+            android:id="@+id/alokik_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+    <TextView
+        android:text="Designer :"
+        android:typeface="serif"
+        android:textSize="25dip"
+        android:id="@+id/designer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fa0633"
+        android:ellipsize="marquee"
+        android:textStyle="bold|italic"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/ritu_pic" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ram_pic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="Ritu Parno Behara"
+            android:textSize="20dip"
+            android:id="@+id/ritu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:text="Rama Krishna Padhy"
+            android:textSize="20dip"
+            android:id="@+id/ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="ritu@gmail.com"
+            android:textSize="20dip"
+            android:id="@+id/ritu_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:text="rkpadhy@gmail.com"
+            android:textSize="20dip"
+            android:id="@+id/ram_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000fff"
+            android:ellipsize="marquee"
+            android:textStyle="normal|italic"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

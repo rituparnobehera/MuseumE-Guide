@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drt="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/back"
+        android:title="BACK"
+        drt:showAsAction="always">
+    </item>
+    <item android:id="@+id/help_desk"
+        android:title="HELP DESK"
+        drt:showAsAction="never">
+    </item>
+    <item android:id="@+id/history"
+        android:title="HISTORY"
+        drt:showAsAction="never">
+    </item>
+    <item android:id="@+id/about_us"
+        android:title="ABOUT US"
+        drt:showAsAction="never">
+    </item>
+    <item android:id="@+id/setting"
+        android:title="SETTING"
+        drt:showAsAction="never">
+    </item>
+    <item android:id="@+id/exit"
+        android:title="EXIT"
+        drt:showAsAction="never">
+    </item>
+</menu>
